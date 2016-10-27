@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/textViewMakanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewMakanan"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="#0000FF"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewMakanan"
+        android:layout_below="@+id/textViewMakanan"
+        android:layout_toRightOf="@+id/imageViewMakanan"
+        android:textSize="16sp"
+        android:textColor="#00FF00"
+        android:text="TextView" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/cek"/>
+
+</RelativeLayout>
